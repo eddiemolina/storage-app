@@ -27,7 +27,6 @@ import { returnInputField } from "../../utils";
                         }
                         await response.json()
                         .then((data) => {
-                            console.log(`data: ${data.first_name}`)
                             if (data.id) {
                                 setToken(data.first_name);
                             } else {

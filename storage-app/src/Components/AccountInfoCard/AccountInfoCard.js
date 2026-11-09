@@ -16,7 +16,7 @@ const AccountInfoCard = ({ userData }) => {
     license_state, 
     date_of_birth, 
     second_phone_number 
-    } = userData;
+    } = userData.account;
    
 
     const timeStampBirth = Date.parse(date_of_birth);

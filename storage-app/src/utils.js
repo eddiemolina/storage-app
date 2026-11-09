@@ -403,7 +403,7 @@ export const getToday = () => {
    const firstName = split[0];
    const lastName = split[split.length - 1];
 
-   return{
+   return {
        firstName: firstName,
        lastName: lastName,
    }

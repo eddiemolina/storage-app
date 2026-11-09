@@ -10,8 +10,9 @@ const Account = () => {
     // state to store user data
     const [userData, setUserData] = useState(null);
     const { userID } = useParams();
-  
 
+      console.log(userData);
+      
       useEffect(() => {
        getUserAccountData(setUserData, `http://localhost:3001/accounts/${userID}`)
       }, [])
